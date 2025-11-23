@@ -1,6 +1,6 @@
-libtemplar = shared_library(
-  'templar',
-  sources : ['templar.cpp'],
+libpacketparser = shared_library(
+  'packet_parser',
+  sources : ['packet_parser.cpp'],
   include_directories : inc,
-  cpp_args : ['-DMYLIB_BUILD']
+  cpp_args: ['-DPACKET_PARSER_EXPORTS'],
 )

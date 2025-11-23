@@ -1,7 +1,7 @@
 test_exe = executable(
-  'test_tmp',
-  sources : ['test_tmp.cpp'],
-  link_with : libtemplar,
+  'test_packet_parser',
+  sources : ['test_packet_parser.cpp'],
+  link_with : libpacketparser,
   include_directories : inc
 )
 
